@@ -1,0 +1,367 @@
+/*
+Theme Name: Theme trwp
+Theme URI: http://todaypoints.com
+Auther: Junaid Ahmed
+Auther URI: http://todaypoins.com/about-us
+Description: Fully responsive wordpress theme built in bootstrap 3
+Version: 1.0
+License: GNU General Public License v2 or Later
+License URI : http://www.gnu.org/licenses/gpl-2.0.html
+Tages: Right Sidebar, Responsive, Home, About us contact us pages
+Text Domain: ThemeConvert
+*/
+
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 300;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%; 
+}
+.navbar-default {
+    background-color: #5906B6;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #E4B182;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #E4B182;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/*=====Feature Section*/
+
+.feature {
+    position: relative;
+}
+.feature img {
+    width: 100%;
+}
+.feature-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 0;
+}
+.feature-text:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.feature-text p {
+    padding: 1%; 
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(74, 82, 95, 0.4);
+    border-radius: 10px;
+    font-size: 35px;
+    color: #fff;
+}
+h2 {
+    text-align : center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-decoration: none;
+    color: #97589c;
+}
+/*=========Welcome section========*/
+#welcome {
+    padding-bottom: 20px;
+    text-align: center;
+    background: #fff;
+}
+#welcome a {
+    color: #494646;
+}
+#about > .container > .row >img,
+#welcome > .container > .row >img {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.facilities{
+    font-size: 1.6em;
+}
+.facilities img {
+    display: block;
+    max-width: 60%;
+    margin: 30px auto;
+    border-radius: 100%;
+}
+.btn-default , #submit, #searchsubmit {
+    background-color: #8393ca;
+    border:3px solid #ecf0f1;
+    border-radius: 5px; 
+    padding: 15px 30px;
+    color: #fff;
+    text-align: center;
+}
+.btn-default:hover , #submit:hover, #searchsubmit:hover {
+    background-color: #97589c;
+}
+
+ul, lo {
+    list-style-type: none;
+}
+/*=======Offer section=======*/
+#latest-offer {
+    text-align: center;
+    color: #fff;
+    background: #97689c;
+
+}
+.offer {
+    position: relative;
+    min-height: 350px;
+    background: #4a525f;
+    padding: 40px 10px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.offer span {
+    border-radius: 100%;
+    background: #8abbb1;
+    display:block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    margin-left: 50%;
+    left: -50px;
+    top: -50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.offer h3 {
+    font-size: 1.6em;
+
+}
+.offer p {
+    line-height: 2em;
+}
+
+/*========online shop=======*/
+#shop-online {
+    text-align:center;
+    background: url("images/roundicons.png") center;
+    min-height: 289px;
+}
+#shop-online h2 {
+    color: #fff;
+}
+#footer {
+    color: #fff;
+    background-color: #97689c;
+}
+#footer address, #footer li {
+    line-height: 2em;
+    font-size: 1.3em;
+
+}
+#footer ul {
+    list-style: none;
+}
+#footer ul li a {
+    color: #fff;
+}
+#copy {
+    text-align: center;
+    background: white;
+    color: #494646;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+/*=====BLOG SECTION======*/
+
+.blog-post-title {
+    background: url("images/styled-imaged.png") center no-repeat;
+    height: 80px;
+    background-size: 300px 40px;
+    background-position: center 35px;
+    margin-bottom: 30px;
+}
+
+.blog-post-title a {
+    color: #494646;
+    text-decoration: none;
+}  
+
+.blog-post {
+    border: 1px solid #494646;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+.blog-post img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+/*=====BLOG blog sidebar======*/
+
+.sidebar-module{
+    border: 1px solid #494646;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 20px;    
+}
+.sidebar-module > ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.sidebar-module > ul li{
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+}
+.sidebar-module input{
+    margin: 10px;
+    max-width: 100%;
+}
+
+#post-25 {
+    background-color: #bbb;
+}
+
+/*=========About us section========*/
+
+#about {
+    padding-bottom: 30px;
+    text-align: center;    
+}
+#about p {
+    margin: 30px 0px;
+
+}
+
+/*=========Contact us section========*/
+
+#contact {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.address {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+.address i {
+    color: #97689c;
+    padding-right: 10px;
+}
+#contact iframe {
+    margin: 30px;
+    max-width: 100%;
+}
+.message-area {
+    margin-top: 30px;
+}
+
+/*=====BLOG SINGLE POST======*/
+
+.blog-post-meta {
+    line-height: 2em;
+}
+
+/*=====Comment Section======*/
+
+div#comments.comments-area {
+    border: 1px solid #494646;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 20px;
+}
+.comment-body {
+    background: #eee;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+h2.comments-title {
+    background: url("images/styled-imaged.png") center no-repeat;
+    height: 80px;
+    background-size: 300px 40px;
+    background-position: center 35px;
+    margin-bottom: 30px;
+}
+.comments-link {
+    margin-bottom: 60px;
+    border-bottom: 1px dashed;
+}
+textarea#comments {
+    width: 100px;
+    margin-bottom: 20px;
+}
+#submit {
+    width: 100%;
+}
+
+/*=======404 Page=======*/
+
+.widget {
+    border: 1px solid #494646;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 20px;
+    min-height: 300px;
+}
+
+/*.blog-main {
+border: 1px solid #000;
+    margin: 30px 5px;
+    border-radius: 5px;
+}    
+.sidebar {
+    
+border: 1px solid #000;
+    margin: 30px 5px;
+    border-radius: 5px;
+
+}*/
+/*=========for mobile=====*/
+@media screen and (max-width : 768px) {
+    li a{
+        text-align: center;
+    }
+    .feature-text p {
+        font-size: 20px;
+    }
+    .feature img {
+        height: 190px;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    footer, .address{
+        text-align: center;
+    }
+    footer ul, .address {
+        border-bottom: 1px dotted;
+    }
+
+}
+
+
